@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView resultado;
+    public TextView resultado;
     private EditText nota1;
     private EditText nota2;
     private Button Calculo;
