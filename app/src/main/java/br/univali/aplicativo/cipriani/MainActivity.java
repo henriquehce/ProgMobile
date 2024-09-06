@@ -10,14 +10,14 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public TextView resultado;
+    private TextView resultado;
     private EditText nota1;
     private EditText nota2;
     private Button Calculo;
 
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
